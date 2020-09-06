@@ -1,5 +1,5 @@
 <?php
-if (isset($_GET['num']) && $_GET['num'] < 8 && $_GET['num'] > 0) {
+if (isset($_GET['num']) && in_array($_GET['num'], range(1, 7))) {
 	$num = $_GET['num'];
 	switch ($num) {
 		case 1:
