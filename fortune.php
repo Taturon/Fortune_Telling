@@ -38,14 +38,20 @@ if (isset($_POST['btn'])) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title>おみくじ</title>
-</head>
-<body>
-<h1>結果</h1>
-<h2><?php echo $res; ?></h2>
-<p><a href="detail.php?num=<?php echo $num; ?>">結果の詳細</a></p>
-<p><a href="button.php"><button type="button">もう一度おみくじを引く</button></a></p>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>おみくじ</title>
+	</head>
+	<body>
+		<h1>結果</h1>
+		<h2><?= $res; ?></h2>
+		<p>
+			<a href="detail.php?num=<?= $num; ?>">結果の詳細</a>
+		</p>
+		<p>
+			<a href="button.php">
+				<button type="button">もう一度おみくじを引く</button>
+			</a>
+		</p>
+	</body>
 </html>

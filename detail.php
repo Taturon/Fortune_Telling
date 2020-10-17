@@ -30,13 +30,17 @@ if (isset($_GET['num']) && in_array($_GET['num'], range(1, 7))) {
 ?>
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title>おみくじ</title>
-</head>
-<body>
-<h1>結果の詳細</h1>
-<h2><?php echo $res; ?></h2>
-<p><a href="button.php"><button type="button">もう一度おみくじを引く</button></a></p>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>おみくじ</title>
+	</head>
+	<body>
+		<h1>結果の詳細</h1>
+		<h2><?= $res; ?></h2>
+		<p>
+			<a href="button.php">
+				<button type="button">もう一度おみくじを引く</button>
+			</a>
+		</p>
+	</body>
 </html>
