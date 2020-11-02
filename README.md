@@ -1,4 +1,5 @@
 # Fortune Telling
+## 概要
 簡単なおみくじです。
 
 まず、初期画面に「おみくじを引く」ボタンがあり、
@@ -13,4 +14,10 @@
 
 ![詳細画面](images/detail.png)
 
-こちらの[Qiita記事](https://qiita.com/_Taturon_/items/80158d792e66cad0d3df)でも解説しています。
+## 開発環境
+
+- PHP 7.1.29 (cli)
+
+---
+
+こちらのQiita記事[「PHPだけで簡単なおみくじを作ってみた」](https://qiita.com/_Taturon_/items/80158d792e66cad0d3df)でも解説しています。
