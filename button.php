@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>おみくじ</title>
+	  	<link rel="apple-touch-icon" type="image/png" href="/favicon/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="/favicon/icon-192x192.png">
 	</head>
 	<body>
 		<h1>おみくじ</h1>
