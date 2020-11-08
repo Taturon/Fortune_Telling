@@ -1,4 +1,4 @@
-# Fortune Telling
+# [Fortune Telling](https://taturon.com/fortune_telling/button.php)
 ## 概要
 簡単なおみくじです。
 
