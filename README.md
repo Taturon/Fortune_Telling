@@ -1,4 +1,6 @@
-# [Fortune Telling](https://taturon.com/fortune_telling/button.php)
+# Fortune Telling
+[こちら](https://taturon.com/fortune_telling/button.php)から遊んで頂けます!
+
 ## 概要
 簡単なおみくじです。
 
@@ -20,4 +22,4 @@
 
 ---
 
-こちらのQiita記事[「PHPだけで簡単なおみくじを作ってみた」](https://qiita.com/_Taturon_/items/80158d792e66cad0d3df)でも解説しています。
+こちらのQiita記事「[PHPだけで簡単なおみくじを作ってみた](https://qiita.com/_Taturon_/items/80158d792e66cad0d3df)」でも解説しています。
